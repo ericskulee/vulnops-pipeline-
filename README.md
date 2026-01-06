@@ -1,4 +1,4 @@
-# vulnops-pipeline-
+# vulnops-pipeline
 # GRC Evidence Pack + Risk Register
 
 ## What this is
