@@ -7,9 +7,6 @@ A practical vulnerability operations workflow that turns scan findings into:
 - remediation SLAs
 - executive + technical reports
 
-## Why it matters
-Scanning is easy. **Triage and execution** are where programs succeed or fail. This project demonstrates an end-to-end VulnOps process you can run and extend.
-
 ## Project structure
 - `sample_data/` — sample assets + scan findings (sanitized/demo)
 - `src/` — parsing, scoring, SLA assignment, report generation
