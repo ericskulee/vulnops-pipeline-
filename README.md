@@ -1,28 +1,23 @@
-# vulnops-pipeline
-# GRC Evidence Pack + Risk Register
+# VulnOps Pipeline — Scan → Normalize → Prioritize → Track → Report
 
 ## What this is
-A practical GRC starter kit that demonstrates:
-- a usable risk register with scoring
-- control mapping (objective → implementation → evidence)
-- an audit-ready evidence binder structure
-- vendor risk questionnaire + scoring rubric
+A practical vulnerability operations workflow that turns scan findings into:
+- normalized results
+- risk-based prioritization
+- remediation SLAs
+- executive + technical reports
 
-## What this proves
-I can translate security requirements into organized controls, collect evidence, and communicate risk clearly.
+## Why it matters
+Scanning is easy. **Triage and execution** are where programs succeed or fail. This project demonstrates an end-to-end VulnOps process you can run and extend.
 
-## Included
-- Risk register template + scoring method
-- Control mapping examples (Access Control, Vuln Mgmt, Logging)
-- Evidence pack structure (policies, procedures, logs, exceptions)
-- Vendor risk questionnaire + scoring
-
-## Next improvements
-- Add sample POA&M format
-- Add quarterly control testing schedule
+## Project structure
+- `sample_data/` — sample assets + scan findings (sanitized/demo)
+- `src/` — parsing, scoring, SLA assignment, report generation
+- `outputs/` — prioritized CSV outputs
+- `reports/` — executive and technical markdown reports
+- `docs/` — triage workflow, false-positive handling, verification notes
 
 ## Run it locally (optional)
-
 ```bash
 python src/generate_reports.py \
   --findings sample_data/scans/scan_findings.csv \
