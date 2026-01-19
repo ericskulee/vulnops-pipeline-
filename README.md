@@ -48,3 +48,13 @@ From **Kali**, scan the Ubuntu target and export to XML:
 
 ```bash
 sudo nmap -sV -O -Pn 172.16.135.130 -oX scan.xml
+
+---
+
+### 2) Transfer scan output (Kali → Ubuntu)
+
+Copy the scan XML from **Kali** to **Ubuntu** over SSH:
+
+```bash
+scp scan.xml cyberic@172.16.135.130:~/vulnops-pipeline/sample_data/scans/scan.xml
+
