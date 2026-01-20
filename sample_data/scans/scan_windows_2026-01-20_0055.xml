@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.98 scan initiated Tue Jan 20 00:55:07 2026 as: /usr/lib/nmap/nmap -sV -O -Pn -&#45;reason -p 22,80,135,139,445,3389,5985,5986 -oX scan_windows_2026-01-20_0055.xml 172.16.135.134 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -sV -O -Pn -&#45;reason -p 22,80,135,139,445,3389,5985,5986 -oX scan_windows_2026-01-20_0055.xml 172.16.135.134" start="1768892107" startstr="Tue Jan 20 00:55:07 2026" version="7.98" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="8" services="22,80,135,139,445,3389,5985-5986"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.16.135.134" addrtype="ipv4"/>
+<address addr="00:0C:29:04:23:C2" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1768892108" endtime="1768892111"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="172.16.135.134" addrtype="ipv4"/>
+<address addr="00:0C:29:04:23:C2" addrtype="mac" vendor="VMware"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="135"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="139"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3389"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ms-wbt-server" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5985"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="wsman" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5986"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="wsmans" method="table" conf="3"/></port>
+</ports>
+<os></os>
+<distance value="1"/>
+<times srtt="487" rttvar="5000" to="100000"/>
+</host>
+<runstats><finished time="1768892111" timestr="Tue Jan 20 00:55:11 2026" summary="Nmap done at Tue Jan 20 00:55:11 2026; 1 IP address (1 host up) scanned in 4.54 seconds" elapsed="4.54" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
