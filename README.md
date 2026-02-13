@@ -2,7 +2,12 @@
 
 ## Related portfolio labs (real scan evidence)
 Hands-on vulnerability management labs (Nessus reports, screenshots, remediation notes):
-➡️ https://github.com/ericskulee/cybersecurity-vulnerability-management
+- Evidence repo: https://github.com/ericskulee/cybersecurity-vulnerability-management
+- Direct Nessus lab (Ubuntu TargetJuice — Credentialed): https://github.com/ericskulee/cybersecurity-vulnerability-management/tree/main/labs/nessus/ubuntu-targetjuice-credentialed-2026-01-25
+  - Report (PDF): https://github.com/ericskulee/cybersecurity-vulnerability-management/blob/main/labs/nessus/ubuntu-targetjuice-credentialed-2026-01-25/reports/nessus-ubuntu-targetjuice-credentialed-scan_qizp96.pdf
+  - Screenshots: https://github.com/ericskulee/cybersecurity-vulnerability-management/tree/main/labs/nessus/ubuntu-targetjuice-credentialed-2026-01-25/screenshots
+  - Summary: https://github.com/ericskulee/cybersecurity-vulnerability-management/blob/main/labs/nessus/ubuntu-targetjuice-credentialed-2026-01-25/NESSUS_SUMMARY.md
+  - Remediation Plan: https://github.com/ericskulee/cybersecurity-vulnerability-management/blob/main/labs/nessus/ubuntu-targetjuice-credentialed-2026-01-25/REMEDIATION_PLAN.md
 
 # VulnOps Pipeline — Scan → Normalize → Prioritize → Track → Report
 
