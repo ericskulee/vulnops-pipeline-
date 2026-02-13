@@ -1,5 +1,9 @@
 ![VulnOps Pipeline](https://github.com/ericskulee/vulnops-pipeline/actions/workflows/vulnops.yml/badge.svg)
 
+## Related portfolio labs (real scan evidence)
+Hands-on vulnerability management labs (Nessus reports, screenshots, remediation notes):
+➡️ https://github.com/ericskulee/cybersecurity-vulnerability-management
+
 # VulnOps Pipeline — Scan → Normalize → Prioritize → Track → Report
 
 A practical vulnerability operations workflow that turns raw scan output into **risk-based remediation priorities**, **SLA tracking**, and **executive + technical reports** — with evidence you can show in GitHub.
